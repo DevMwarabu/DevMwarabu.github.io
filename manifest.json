@@ -1,6 +1,6 @@
 {
-    "name": "evaluation_admin",
-    "short_name": "evaluation_admin",
+    "name": "UoK Evaluations",
+    "short_name": "uok_evaluations",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

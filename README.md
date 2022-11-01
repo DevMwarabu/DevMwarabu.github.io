@@ -98,6 +98,6 @@ App Store and Google’s Play Store based on the agreement too.
 
 
 ## Tech team:
-Parveen  Wesonga - UI/UX Designer
+Parveen  Wesonga - UI/UX Designer.
 John Mwarabu - Fullstack Dev
 

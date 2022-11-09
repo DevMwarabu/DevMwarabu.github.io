@@ -54,10 +54,12 @@
 
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
+//       _flutter.loader.loadEntrypoint({
+//         serviceWorker: {
+//           serviceWorkerVersion: serviceWorkerVersion,
+//         }
+         e.preventDefault();
+    return false;
       }).then(function(engineInitializer) {
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {

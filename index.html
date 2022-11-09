@@ -44,10 +44,7 @@
 <body>
   <script>
     
-//     window.addEventListener('beforeinstallprompt', function (e) {
-//     e.preventDefault();
-//     return false;
-//     });
+
 
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -60,6 +57,10 @@
       }).then(function(appRunner) {
         return appRunner.runApp();
       });
+    });
+        window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    return false;
     });
   </script>
 </body>

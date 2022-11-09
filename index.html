@@ -42,6 +42,13 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  
+  <script>
+        window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    return false;
+    });
+  </script>
   <script>
     
 
@@ -58,10 +65,7 @@
         return appRunner.runApp();
       });
     });
-        window.addEventListener('beforeinstallprompt', function (e) {
-    e.preventDefault();
-    return false;
-    });
+    
   </script>
 </body>
 </html>
